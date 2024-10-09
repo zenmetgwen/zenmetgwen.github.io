@@ -12,6 +12,7 @@
   font-weight: 400;
   font-size: 4rem;
 }
+
 .heading-2 {
   color: #225e60;
   font-size: 1.5rem;
@@ -28,8 +29,4 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-
-.hero-image {
-  width: 100%;
 }
