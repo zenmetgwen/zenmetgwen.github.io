@@ -24,6 +24,10 @@
 .header {
   height: 100vh;
   background-image: url("/images/zonnedans-1920px.jpg");
+
+  @media screen and (max-width: 40rem) {
+    background-image: url("/images/baken-640px.jpg");
+  }
   background-size: cover;
   display: flex;
   justify-content: center;
