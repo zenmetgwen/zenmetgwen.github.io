@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400..700&display=swap&family=Montserrat:wght@400..700&display=swap");
-
+:root {
+  --green: #225e60;
+  --light-green: #69968f;
+  --white: #fefbf6;
+  --black: #312f3c;
+  --yellow: #eaac39;
+}
 * {
   padding: 0;
   margin: 0;
@@ -26,14 +32,14 @@
 }
 
 .title {
-  color: white;
+  color: var(--white);
   font-weight: 400;
   font-size: 4rem;
   font-family: inherit;
 }
 
 .sub-title {
-  color: #fefbf6;
+  color: var(--white);
   font-weight: 400;
   font-size: 2rem;
   font-family: inherit;
@@ -41,8 +47,8 @@
 
 .intro-text {
   padding: 10vw;
-  background-color: #225e60;
-  color: #fefbf6;
+  background-color: var(--green);
+  color: var(--white);
 }
 
 .quote {
@@ -51,12 +57,27 @@
 }
 
 .hoe-ga-ik-te-werk {
-  background-color: #fefbf6;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  padding: 3rem 0;
+  padding: 5rem 0;
+}
+
+.section-header {
+  color: var(--green);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px var(--yellow) solid;
+}
+
+.green {
+  color: var(--green);
 }
 
 .text-block-container {
@@ -69,18 +90,40 @@
 }
 
 .container-light > p {
-  color: #312f3c;
+  color: var(--black);
 }
 
 .emphasis {
   font-weight: bold;
 }
 
-.section-header-green {
-  color: #225e60;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  padding-bottom: 2rem;
+.testimonials {
+  background-color: var(--light-green);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+
+.black {
+  color: var(--white);
+}
+
+.testimonials > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial {
+  padding: 1.5rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  max-width: 40rem;
+  border: 2px var(--green) solid;
+}
+
+.author {
+  color: var(--green);
 }
