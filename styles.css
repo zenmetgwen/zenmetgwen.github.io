@@ -120,7 +120,7 @@
   padding: 5rem;
 }
 
-.black {
+.white {
   color: var(--white);
 }
 
@@ -140,4 +140,21 @@
 
 .author {
   color: var(--green);
+}
+
+.about-me {
+  background-color: var(--white);
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me > .container {
+  max-width: 40rem;
+}
+
+.about-me > .container > *:not(:last-child) {
+  padding-bottom: 2rem;
 }
