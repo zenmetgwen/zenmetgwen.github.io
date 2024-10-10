@@ -158,3 +158,53 @@
 .about-me > .container > *:not(:last-child) {
   padding-bottom: 2rem;
 }
+
+.footer {
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.footer > .container {
+  width: calc(min(40rem, 90vw));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.contact {
+  color: var(--yellow);
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.instagram {
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.insta-logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.insta-handle {
+  color: var(--white);
+}
+.insta-handle:hover {
+  color: var(--yellow);
+}
+
+.emailaddress {
+  color: var(--white);
+}
+.emailaddress:hover {
+  color: var(--yellow);
+}
