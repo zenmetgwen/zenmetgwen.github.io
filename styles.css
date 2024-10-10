@@ -11,6 +11,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
 }
 
 .header {
@@ -36,24 +37,37 @@
   font-weight: 400;
   font-size: 4rem;
   font-family: inherit;
+  line-height: 6rem;
 }
 
 .sub-title {
   color: var(--white);
   font-weight: 400;
+  line-height: 2rem;
   font-size: 2rem;
   font-family: inherit;
 }
 
 .intro-text {
-  padding: 10vw;
-  background-color: var(--green);
+  padding: 14rem 1rem;
+  background-color: var(--light-green);
   color: var(--white);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-text > .container {
+  max-width: 640rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
 }
 
 .quote {
   font-size: 1.5rem;
-  padding: 1rem;
 }
 
 .hoe-ga-ik-te-werk {
