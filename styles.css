@@ -120,7 +120,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem;
+  padding: 5rem 1rem;
 }
 
 .white {
@@ -146,12 +146,17 @@
 }
 
 .about-me {
+  padding: 5rem 1rem;
   background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   width: 100%;
+
+  @media screen and (max-width: 40rem) {
+    flex-direction: column-reverse;
+  }
 }
 
 .about-me > .content {
@@ -161,10 +166,17 @@
   align-items: center;
   max-width: 40rem;
   width: 40%;
+  @media screen and (max-width: 40rem) {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
 }
 
 .about-me > img {
   width: 40%;
+  @media screen and (max-width: 40rem) {
+    width: 70%;
+  }
   margin: 1rem 0;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
