@@ -141,6 +141,10 @@
   border: 2px var(--green) solid;
 }
 
+.rechts {
+  transform: rotate(180deg);
+}
+
 .author {
   color: var(--green);
 }
