@@ -167,7 +167,6 @@
   max-width: 40rem;
   width: 40%;
   @media screen and (max-width: 40rem) {
-    flex-direction: column-reverse;
     width: 100%;
   }
 }
@@ -181,7 +180,7 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.about-me > .container > *:not(:last-child) {
+.about-me > .content > *:not(:last-child) {
   padding-bottom: 2rem;
 }
 
