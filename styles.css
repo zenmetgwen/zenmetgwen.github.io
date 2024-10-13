@@ -131,6 +131,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 21rem;
+
+  @media screen and (max-width: 760px) {
+    min-height: 21rem;
+    height: auto;
+  }
 }
 
 .testimonial {
@@ -146,6 +152,7 @@
 }
 
 .author {
+  padding-top: 1rem;
   color: var(--green);
 }
 
