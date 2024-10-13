@@ -6,6 +6,7 @@
   --black: #312f3c;
   --yellow: #eaac39;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -91,6 +92,7 @@
   padding-bottom: 1rem;
   margin-bottom: 2rem;
   border-bottom: 2px var(--yellow) solid;
+  text-align: center;
 }
 
 .green {
@@ -149,8 +151,8 @@
 }
 
 .testimonial-btn {
-  width: 3rem;
-  height: 3rem;
+  width: 2.75rem;
+  height: 2.75rem;
   display: flex;
   justify-content: center;
   align-items: center;
