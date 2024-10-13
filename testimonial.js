@@ -27,8 +27,8 @@ const testimonials = [
 
 let currentTestimonial = 0
 
-const btnLeft = document.querySelector(".btnLeft")
-const btnRight = document.querySelector(".btnRight")
+const btnLeft = document.querySelector(".testimonial-btn.left")
+const btnRight = document.querySelector(".testimonial-btn.right")
 
 btnLeft.addEventListener("click", showPrevious)
 btnRight.addEventListener("click", showNext)
