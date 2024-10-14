@@ -124,8 +124,14 @@
   font-weight: bold;
 }
 
+.testimonials-background {
+  background-image: url("/images/gouden-bloemen.svg");
+  background-size: cover;
+  background-position: right;
+}
+
 .testimonials {
-  background-color: var(--light-green);
+  background-color: rgba(34, 94, 96, 0.8);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
