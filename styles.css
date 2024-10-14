@@ -139,7 +139,7 @@
   padding: 5rem 1rem;
 
   @media screen and (max-width: 760px) {
-    padding: 5rem 0rem;
+    padding: 5rem 0.5rem;
   }
 }
 
@@ -167,7 +167,7 @@
   max-width: 40rem;
 
   @media screen and (max-width: 40rem) {
-    margin: 0;
+    padding: 1.25rem 0;
   }
 }
 
@@ -180,7 +180,7 @@
   outline: none;
   border: none;
   background-color: transparent;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .testimonial-btn > img {
