@@ -40,6 +40,7 @@
   font-family: inherit;
   line-height: 4rem;
   padding-bottom: 2rem;
+  text-shadow: 0 0 1rem #000000;
 }
 
 .sub-title {
@@ -48,14 +49,20 @@
   line-height: 2.5rem;
   font-size: 2rem;
   font-family: inherit;
+  text-shadow: 0 0 0.5rem #000000;
+}
+
+.intro-text-background {
+  background-image: url("/images/gouden-bloemen.svg");
+  background-size: cover;
 }
 
 .intro-text {
   padding: 12rem 1rem;
-  background-color: var(--light-green);
   color: var(--white);
   display: flex;
   justify-content: center;
+  background-color: rgba(34, 94, 96, 0.8);
 }
 
 .intro-text > .container {
