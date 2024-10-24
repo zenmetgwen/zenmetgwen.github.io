@@ -7,6 +7,10 @@
   --yellow: #eaac39;
 
   --testimonial-width: min(30rem, calc(100vw - 10rem));
+
+  @media screen and (max-width: 32.5rem) {
+    --testimonial-width: calc(100vw - 7rem);
+  }
 }
 
 * {
