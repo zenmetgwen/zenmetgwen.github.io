@@ -263,6 +263,7 @@ img.right {
 }
 
 .city {
+  font-weight: 400;
   color: var(--black);
 }
 
