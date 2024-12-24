@@ -113,9 +113,8 @@
 }
 
 .sub-heading {
-  width: 100%;
-  text-align: left;
   margin-top: 2rem;
+  color: var(--black);
 }
 
 .text-block-container {
