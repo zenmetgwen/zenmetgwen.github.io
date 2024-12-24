@@ -32,10 +32,10 @@
 
   font-family: "Noto Serif Display", Arial, Helvetica, sans-serif;
 
-  background-image: url("/images/zonnedans-1920px.jpg");
+  background-image: url("/images/zonnedans-1920px.webp");
 
   @media screen and (max-width: 40rem) {
-    background-image: url("/images/baken-640px.jpg");
+    background-image: url("/images/baken-640px.webp");
   }
 }
 
@@ -171,15 +171,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 23rem;
   background-color: var(--white);
   border: 2px var(--green) solid;
   border-radius: 1rem;
-
-  @media screen and (max-width: 760px) {
-    min-height: 21rem;
-    height: auto;
-  }
 }
 
 .testimonial {
