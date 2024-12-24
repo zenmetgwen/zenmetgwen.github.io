@@ -91,7 +91,7 @@
   font-weight: 400;
 }
 
-.hoe-ga-ik-te-werk {
+.section-default {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
@@ -303,6 +303,14 @@ img.right {
 
 .about-me > .content > *:not(:last-child) {
   padding-bottom: 2rem;
+}
+
+.divider {
+  height: 4rem;
+
+  background-image: url("/images/gouden-bloemen.svg");
+  background-size: cover;
+  background-position: right;
 }
 
 .footer {
