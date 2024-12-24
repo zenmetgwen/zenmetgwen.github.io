@@ -128,6 +128,10 @@
   margin-bottom: 2rem;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .cta__button {
   display: block;
   text-decoration: none;
@@ -254,6 +258,12 @@ img.right {
 .author {
   padding-top: 1rem;
   color: var(--green);
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  color: var(--black);
 }
 
 .about-me {
