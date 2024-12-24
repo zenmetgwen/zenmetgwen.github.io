@@ -322,6 +322,13 @@ img.right {
   padding: 0.25rem 0;
 }
 
+.signature {
+  font-family: "Noto Serif Display", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .footer {
   background-color: var(--black);
   display: flex;
