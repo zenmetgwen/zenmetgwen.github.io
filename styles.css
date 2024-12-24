@@ -307,10 +307,13 @@ img.right {
 
 .divider {
   height: 4rem;
-
   background-image: url("/images/gouden-bloemen.svg");
   background-size: cover;
   background-position: right;
+}
+
+.list > li {
+  padding: 0.25rem 0;
 }
 
 .footer {
